@@ -1,0 +1,36 @@
+name: project_capstone
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  page_transition:
+  flutter_localizations:
+    sdk: flutter
+  syncfusion_flutter_charts:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons:
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo.png"
+  remove_alpha_ios: true
+
+flutter:
+  uses-material-design: true
+
+  generate: true
+
+  assets:
+    # Add assets from the images directory to the application.
+    - assets/images/
